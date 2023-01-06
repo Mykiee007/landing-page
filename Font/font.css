@@ -1,0 +1,85 @@
+/* font page coding */
+body {
+  
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: stretch;
+    
+}
+.up {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+.header {
+    flex: 1;
+    font-size: 48px;
+    color: rgb(0, 68, 255);
+    font-weight: 1000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px 25px;
+}
+.upperbody {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+    padding: 15px 25px 24px;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(17, 17, 114);
+}
+
+.upperbody .up1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.upperbody .up2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.upperbody .up3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+.upperbody .up4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight:900;
+}
+.lowerbody {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px ;
+    gap: 30px;
+}
+
+.lowerbody .lo1 {
+    font-size: 24px;
+    color: rgb(0, 110, 255);
+}
+.lowerbody .lo2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.footer {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px 45px;
+    gap: 30px;
+}
+.footer .fo1 {
+    font-size: 24px;
+}
+.footer .fo2 {
+    font-size: 36px;
+    font-style: italic;
+}

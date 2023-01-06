@@ -1,0 +1,30 @@
+/* footer coding area */
+
+.footer {
+    background: rgb(61, 105, 201);
+    border-radius: 30px; 
+    display: flex;
+    color: white;
+    margin: 100px 250px;
+    align-items: center;
+    padding: 50px 150px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.shout {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.sign {
+    font-size: 24px;
+}
+.footbutton {
+    flex: 1 1 auto;
+    align-content: center;
+}

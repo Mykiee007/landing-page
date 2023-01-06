@@ -1,0 +1,27 @@
+/* quote coding area */
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    padding: 100px 350px;
+}
+.message {
+    flex:1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 50px;
+    color: black;
+
+}
+
+.author {
+    flex: 1;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    text-align: right;
+}

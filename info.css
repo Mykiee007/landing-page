@@ -1,0 +1,38 @@
+/* info body */
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px 150px;
+    text-align: center;
+}
+
+h {
+    font-size: 50px;
+    font-weight: 1000;
+    padding: 70px;
+}
+.infobody {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+}
+
+.pic {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.infobody img {
+    border: 5px solid blue;
+    border-radius: 50px;
+    max-width: 100%;
+}
+
+.infobody a {
+    font-size: 26px;
+    color: rgb(104, 104, 104);
+    padding: 10px 0px;
+}
